@@ -37,7 +37,7 @@ const TaskManager=()=>{
             completionstatus:false
         }).then((res)=>{
             setStalker(true)
-        }).catch((e)=>console.log(e))
+        }).catch((e)=>console.log("err",e))
     }
     const changeCompletion=(e,taskid)=>{
         e.preventDefault()
